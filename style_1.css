@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 a {
     text-decoration: none;
     color: black;
@@ -64,7 +67,7 @@ a {
     font-size: 38px;
     color: #46B1DE;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    /* line-height: 130%;  */
+     line-height: 35px;
     
 }
 .dent {
@@ -193,9 +196,13 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
-    margin-left: 110px;
-    margin-right: 110px;
-    margin-top: 175px; 
+    position: absolute;
+    width: 1300px;
+    margin: auto;
+    left: calc(50% - 650px); /* для установки горизонтального положения элемента */
+
+    bottom: -100px;
+
 }
 .conteiner-card {
     display: grid;
