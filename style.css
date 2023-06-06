@@ -1,0 +1,65 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
+.first-screen {
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: cover;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.services {
+    display: flex;
+    align-items: center;           /*выровнять по линии одного елемента */
+    justify-content: space-between;
+    
+}
+.head, .description {
+    flex-direction: column;
+    flex-basis: width 520px;
+    
+}
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+    padding: 60px 112px 60px 112px;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+.but {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 65px;
+    width: 480px; */
+}
+.but-one {
+    
+ 
+}
+.but-two {
+    
+}
+
+/* .woman {
+    width: 570px;
+    height: 460px;
+    position: relative;
+    z-index: 2;
+    
+} */
