@@ -305,9 +305,6 @@ a {
     right: 0;
 }
 
-.img-woman {
-
-}
 
 .two-screen {
     margin-top: 120px;
@@ -422,13 +419,10 @@ a {
     font-weight: 600;
     color:#46B1DE ;
 }
-
-.conteiner-tooth-in-rine {
-    
-}
 .three-screen {
     margin-top: 90px;
     position: relative;
+    margin-bottom: 150px;
 }
 
 .ring {
@@ -578,10 +572,7 @@ a {
 .all-in-three {
     position: absolute;
 }
-.alert {
-    
-    margin-top: 148px;
-}
+
 .alert > .conteiner {
     
     display: flex;
