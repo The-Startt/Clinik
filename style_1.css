@@ -408,31 +408,21 @@ a {
     font-size: 16px;
     line-height: 19px;
 }
-.header-services {
-    
-    text-align: center;
-    margin-bottom: 55px;
-    
-}
 
-.container-services-provide {
-    
-    
-}
-.header-services-container , .header-services-container > .services {
+.header-services {
     font-family: 'Roboto', sans-serif;
     font-size: 34px;
-}
-.header-services-container {
+    text-align: center;
+    margin-bottom: 55px;
     font-weight: 400;
     color: #000000;
-    
 }
 
-.header-services-container > .services {
+.header-services > .services {
     font-weight: 600;
     color:#46B1DE ;
 }
+
 .conteiner-tooth-in-rine {
     
 }
@@ -440,17 +430,13 @@ a {
     margin-top: 90px;
     position: relative;
 }
-.jeneral-three-screen {
-    position: relative;
-   
-}
+
 .ring {
       width: 300px;
       height: 300px;
       border-radius: 50%;
       border: 1px solid #1B1D1F;
-      position: relative;
-      
+      position: relative;    
       
 }
 .tooth {
@@ -458,42 +444,45 @@ a {
     top: 41%;
     left: 50%;
     transform: translate(-50%, -50px);
-    
    
 }
-.conteiner-for-circles-one {
-    
+.b-one {
+    top: 40px;
+    left: 253px;
 }
-.conteiner-circle-1 {
+.b-two {
+    top: 36px;
+    left: -2px;
+}
+.b-three {
+    top: 130px;
+    left: -67px;
+}
+.b-four {
+    top: 223px;
+    left: -70px;
+}
+.b-five {
+    top: 130px;
+    left: 176px;
+}
+.b-six {
+    top: 222px;
+    left: 121px;
+}
+.ring button {
+    background-color: #46B1DE;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
     position: relative;
-    left: 242px;
-    top: 24px;
+    color: #fff;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
 }
-.conteiner-circle-2 {
-    position: relative;
-    left: 292px;
-    top: 102px;
-}
-.conteiner-circle-3 {
-    position: relative;
-    left: 260px;
-    top: 182px;
-}
-.conteiner-circle-4 {
-    position: relative;
-    left: 34px;
-    top: -48px;
-}
-.conteiner-circle-5 {
-    position: relative;
-    left: -14px;
-    top: 32px;
-}
-.conteiner-circle-6 {
-    position: relative;
-    left: 16px;
-    top: 112px;
-}
+
 .conteiner-tooth-in-rine {
     display: flex;
     justify-content: center;
@@ -501,7 +490,6 @@ a {
 }
 .conteiner-circle {
     position: relative;
-    
     
 }
 .circle {
@@ -512,16 +500,7 @@ a {
     position: relative;
     
 }
-.plus {
-    text-decoration: none;
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #fff;
-    position: absolute;
-    top: 2px;
-    left: 6px;
-}
+
 
 .general-block {
     position: absolute;
@@ -541,28 +520,28 @@ a {
 }
 
 .help-right-one {
-    left: 200px;
-    bottom: 310px;
+    right: 168px;
+    bottom: 43px;
 }
 .help-right-two {
-    left: 154px;
-    bottom: 290px;
+    right: 204px;
+    bottom: -88px;
 }
 .help-right-three {
-    left: 227px;
-    bottom: 262px;
+    right: 145px;
+    bottom: -230px;
 }
 .help-left-four {
-    left: 847px;
-    bottom: 647px;
+    left: 158px;
+    bottom: 41px;
 }
 .help-left-five {
-    left: 880px;
-    bottom: 626px;
+    left: 199px;
+    bottom: -93px;
 }
 .help-left-six {
-    left: 818px;
-    bottom: 603px;
+    left: 139px;
+    bottom: -230px;
 }
 
 .header-servis {
@@ -584,18 +563,24 @@ a {
     font-size: 16px;
     color: #1B1D1F; 
 }
-.all-in-one {
-    position: relative; /*чи absolute?*/
+.main-providedServices-block {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    max-width: 96vw;
+    margin: 55px auto 0 auto; */
+    /* position: relative; чи absolute? */
     
 }
 .all-in-two {
     /* position: absolute; */
 }
 .all-in-three {
+    position: absolute;
 }
 .alert {
     
-    margin-top: 90px;
+    margin-top: 148px;
 }
 .alert > .conteiner {
     
@@ -789,7 +774,8 @@ font-family: 'Sofia Sans', sans-serif; */
 /*footer*/
 
 .footer {
-    position: absolute;
+    display: flex;
+    justify-content: space-around;
     background-image: linear-gradient( #A1C7D4, #0680AA);
     width: 100%;
 }
@@ -875,9 +861,8 @@ font-family: 'Sofia Sans', sans-serif; */
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    position: absolute;
-    margin-top: -390px;
-    margin-left: 1100px;
+    margin-top: 36px;
+    /* margin-left: 378px; */
     color: #fff;
 }
 .contacts h2 {

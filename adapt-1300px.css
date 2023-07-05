@@ -1,0 +1,17 @@
+@media (max-width: 1024px) {
+    .logo-text{
+        font-size: 32px;
+    }
+    .first-screen > .container{
+        padding: 0 25px;
+    }
+
+    .first-screen{
+        height: 100vh;
+    }
+}
+@media (max-width: 992px) {
+    .for-all-content{
+        
+    }
+}
